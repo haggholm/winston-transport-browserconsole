@@ -1,6 +1,6 @@
 
 import * as winston from "winston";
-import * as Transport from 'winston-transport';
+import Transport from 'winston-transport';
 
 export default class BrowserConsole extends Transport {
 
